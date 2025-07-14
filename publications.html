@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications</title>
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  
+  <style>
+    .content-container {
+      width: 80%;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .year-divider {
+        position: relative;
+        margin: 60px 0 20px; /* Increased top margin to push the line down */
+        display: flex;
+        align-items: center;
+    }
+
+    .year-divider hr {
+        flex: 1;  /* Ensures the line expands fully */
+        border: none;
+        height: 1px;
+        background-color: #aaa;
+        margin: 0;
+    }
+
+    .year-text {
+        font-size: 28px;
+        font-weight: bold;
+        color: #666;
+        margin-left: 15px;  /* Moves year slightly away from line */
+    }
+
+    .publication-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      margin-bottom: 25px;
+    }
+
+    .publication-container img {
+      width: 180px;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .publication-text {
+      flex: 1;
+      max-width: 600px;
+    }
+
+    .publication-text p {
+      margin: 5px 0;
+    }
+
+    .publication-text a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+
+    .publication-text a:hover {
+      color: #f09228;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="navbar-container">
+    <div class="navbar">
+      <div class="navbar-left"><a href="index.html">Pavan Kumar Sathya Venkatesh</a></div>
+      <div class="navbar-right">
+        <a href="index.html">About</a>
+        <a href="publications.html">Research</a>
+        <span class="toggle-icon" onclick="toggleTheme()">🌙</span>
+      </div>
+    </div>
+  </div>
+  <hr class="navbar-hr">
+
+  <!-- New Text Section -->
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+    <tbody>
+      <tr style="padding:0px">
+        <td style="padding:0px">
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+            <tbody>
+              <tr style="padding:0px">
+                <td style="padding:2.5%;width:100%;vertical-align:middle">
+                  <p style="text-align:center">
+                    <name>Pavan Kumar Sathya Venkatesh</name>
+                  </p>
+                  <p>
+                   I'm working across several areas in computer vision - from medical image classification and plant disease detection for precision agriculture to multi-modal learning that combines 
+                   audio and visual data. I've also explored neural surface reconstruction and am eager to deepen my work in this area.
+                   This lets me address meaningful real-world problems while diving deep into the technical challenges each domain presents.</p>
+                  
+                  <p style="text-align:center">
+                    <a href="mailto:s.pavankumar2003@gmail.com">Email</a> &nbsp/&nbsp
+                    <a href="data/cv.pdf">CV</a> &nbsp/&nbsp
+                    <a href="https://scholar.google.com/citations?user=RGpjjD8AAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                    <a href="https://github.com/pavan-0725">GitHub</a> &nbsp/&nbsp
+                    <a href="https://www.linkedin.com/in/pavan-kumar-72abb5224?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B4YjZdQ12QUC8Ss%2BdUAIVew%3D%3D">LinkedIn</a>
+                  </p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+      
+
+  <div class="content-container">
+    <h2>Publications, Preprints and Projects</h2>
+
+        <!-- 2024 Year Divider -->
+    <div class="year-divider">
+      <hr>
+      <div class="year-text">2025</div>
+    </div>
+
+    <div class="publication-container">
+      <img src="img/main_results.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="#">
+          <papertitle>PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty</papertitle>
+        </a>
+        <br>
+        <a href="#">Shravan Venkatraman</a>,
+        <a href="#">Rakesh Raj Madavan</a>,
+        <strong>S Pavan Kumar</strong>
+        <br>
+        <em>Submitted:BMVC</em>, 2025
+        <br>
+        <!-- <a href="https://arxiv.org/abs/2409.17273">arXiv</a> -->
+        <p>Models camera poses as probabilistic distributions with learnable uncertainty to enable robust surface reconstruction under significant pose errors.</p>
+      </div>
+    </div>
+
+    <div class="year-divider">
+      <hr>
+    </div>
+
+    <div class="publication-container">
+      <img src="img/ugpl.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="#">
+          <papertitle>PCM-NeRF: Probabilistic Camera Modeling for Neural Radiance Fields under Pose Uncertainty</papertitle>
+        </a>
+        <br>
+         <a href="#">Shravan Venkatraman</a>,
+         <strong>Pavan Kumar S</strong>,
+         <a href="#">Rakesh Raj</a>,
+         <a href="#">Chandrakala S</a>,
+        <br>
+        <em>Accpeted(Poster): Third Workshop on Computer Vision for Automated Medical Diagnosis</em>, 2025
+        <br>
+        <!-- <a href="https://arxiv.org/abs/2409.17273">arXiv</a> -->
+        <p>Performs Global-to-local analysis using Progressive learning guided by uncertainty quantification to identify regions of diagnostic ambiguity followed by detailed evidence based classification.</p>
+      </div>
+    </div>
+
+    <div class="year-divider">
+      <hr>
+    </div>
+
+      <div class="publication-container">
+      <img src="img/teaser_2_project_2.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="#">
+          <papertitle>Making Lies Visible: CM-TGT for Graph-Based Cross-Modal Deception Detection</papertitle>
+        </a>
+        <br>
+        <strong>S Pavan Kumar</strong>,
+        <a href="#">Maheswer Sunil Kumar</a>,
+        <a href="#">Pranay Jiljith T</a>,
+        <a href="#">Pandiyaraju V</a>
+        <br>
+        <em>In progress</em>, 2025
+        <br>
+        <!-- <a href="https://arxiv.org/abs/2409.17273">arXiv</a> -->
+        <p>Combine Audio and Video Modalities utilizing graph based techniques to identify deception in court-trials and game shows.</p>
+      </div>
+    </div>
+
+    <div class="year-divider">
+      <hr>
+    </div>
+
+          <div class="publication-container">
+      <img src="img/paddy.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="#">
+          <papertitle>SPROUT: Symptom-centric Prototypical Representation Optimization and Uncertainty-aware Tuning for Few-Shot Precision Agriculture</papertitle>
+        </a>
+        <br>
+        
+        <a href="#">Shravan Venkatraman</a>,
+        <strong>S Pavan Kumar</strong>,
+        <a href="#">Pandiyaraju V</a>,
+        <a href="#">A Abeshek</a>,
+        <a href="#"> S A Aravintakshan</a>, 
+        <a href="#">Kannan A</a>
+        <br>
+        <em>Submitted to: Applied Soft Computing</em>, 2025
+        <br>
+        <!-- <a href="https://arxiv.org/abs/2409.17273">arXiv</a> -->
+        <p>Utilize Few-Shot learning techniques to identify diseases with the help of plant leaf images.</p>
+      </div>
+    </div>
+
+    <div class="year-divider">
+      <hr>
+    </div>
+
+        <div class="publication-container">
+      <img src="img/bone.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="#">
+          <papertitle>Bayesian Uncertainty Propagation for Bone Fracture Diagnosis via Region-Aware Adaptive Label Refinement</papertitle>
+        </a>
+        <br>
+        
+        <a href="#">Shravan Venkatraman</a>,
+        <a href="#">Pandiyaraju V</a>,
+        <a href="#">A Abeshek</a>,
+        <strong>S Pavan Kumar</strong>,
+        <a href="#"> S A Aravintakshan</a>, 
+        <a href="#">Kannan A</a>
+        <br>
+        <em>Submitted to: Knowledge-Based Systems</em>, 2025
+        <br>
+        <!-- <a href="https://arxiv.org/abs/2409.17273">arXiv</a> -->
+        <p>Entropy-guided label pruning and region-aware uncertainty estimation enables fracture diagnosis models to reason under ambiguity.</p>
+      </div>
+    </div>
+
+    <!-- 2024 Year Divider -->
+    <div class="year-divider">
+      <hr>
+      <div class="year-text">2024</div>
+    </div>
+
+    <!-- Publication 1 -->
+    <div class="publication-container">
+      <img src="img/Picture2.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="https://arxiv.org/abs/2409.17273">
+          <papertitle>Targeted Neural Architectures in Multi-Objective Frameworks for Complete Glioma Characterization from Multimodal MRI</papertitle>
+        </a>
+        <br>
+        <a href="#">Pandiyaraju V</a>,
+        <a href="#">Shravan Venkatraman</a>,
+        <a href="#">A Abeshek</a>,
+        <a href="#"> S A Aravintakshan</a>, 
+        <strong>S Pavan Kumar</strong>,
+        <a href="#">S Madhan</a>,
+        <br>
+        <em>Preprint:arXiv</em>, 2024
+        <br>
+        <a href="https://arxiv.org/abs/2409.17273">arXiv</a>
+        <p>Deep learning-driven MRI analysis improves brain tumor detection, segmentation, and grading by leveraging advanced feature extraction, attention mechanisms, and ensemble classification for precise diagnosis.</p>
+      </div>
+    </div>
+
+    <!-- 2023 Year Divider -->
+    <div class="year-divider">
+      <hr>
+    </div>
+    <!-- Publication 2 -->
+    <div class="publication-container">
+      <img src="img/Raw-Images.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="http://dx.doi.org/10.1109/ACCESS.2025.354056">
+          <papertitle>Leveraging Bi-Focal Perspectives and Granular Feature Integration for Accurate Reliable Early Alzheimer’s Detection</papertitle>
+        </a>
+        <br>
+        <a href="#">Shravan Venkatraman</a>,
+        <a href="#">Pandiyaraju V</a>,
+        <a href="#">A Abeshek</a>,
+        <strong>S Pavan Kumar</strong>,
+        <a href="#"> S A Aravintakshan</a>, 
+        <br>
+        <em>IEEE Access</em>, 2025, <em>Preprint: arXiv</em>, 2024
+        <br>
+        <a href="http://dx.doi.org/10.1109/ACCESS.2025.3540567">Publication</a>
+        <p>A novel deep learning approach enhances Alzheimer's detection from MRI scans by integrating multi-scale feature extraction and a Bi-Focal Perspective mechanism to highlight critical pathological markers.</p>
+      </div>
+    </div>
+
+    <div class="year-divider">
+      <hr>
+    </div>
+
+    <div class="publication-container">
+      <img src="img/bc.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="https://arxiv.org/abs/2407.02844">
+          <papertitle>Exploiting Precision Mapping and Component-Specific Feature Enhancement for Breast Cancer Segmentation and Identification</papertitle>
+        </a>
+        <br>
+        <a href="#">Pandiyaraju V</a>,
+        <a href="#">Shravan Venkatraman</a>,
+        <a href="#">Saraswathi D</a>,
+        <strong>S Pavan Kumar</strong>,
+        <a href="#">Santhosh Malarvannan</a>,
+        <a href="#"> Kannan A</a>, 
+        <br>
+        <em>Preprint: arXiv</em>, 2024
+        <br>
+        <a href="https://arxiv.org/abs/2407.02844">Publication</a>
+        <p>A deep learning framework enhances breast cancer diagnosis from ultrasound images using precision mapping for accurate lesion segmentation and multi-level attention for improved classification.</p>
+      </div>
+    </div>
+
+        <!-- 2023 Year Divider -->
+    <div class="year-divider">
+      <hr>
+      <div class="year-text">2023</div>
+    </div>
+
+    <div class="publication-container">
+      <img src="img/tomato.png" alt="BraTS">
+      <div class="publication-text">
+        <a href="https://arxiv.org/abs/2407.02844">
+          <papertitle>Improved Tomato Leaf Disease Classification Through Adaptive Ensemble Models with Exponential Moving Average Fusion and Enhanced Weighted Gradient Optimization</papertitle>
+        </a>
+        <br>
+        <a href="#">Pandiyaraju V</a>,
+        <a href="#">Senthil Kumar A M</a>,
+        <a href="#">Praveen Joe I R</a>,
+        <a href="#">Shravan Venkatraman</a>,
+        <strong>S Pavan Kumar</strong>,
+        <a href="#">Aravintakshan S A</a>,
+        <a href="#">Abeshek A</a>,
+        <a href="#"> Kannan A</a>, 
+        <br>
+        <em>Frontiers in Plant Science</em>, 2024
+        <br>
+        <a href="https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2024.1382416/full">Publication</a>
+        <p>An Ensemble model with weight gradient optimization function to improve plant leaf disease detection.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
